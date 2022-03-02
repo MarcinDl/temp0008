@@ -1,0 +1,38 @@
+.mainpage {
+  &__container {
+    min-height: calc(100vh - 2rem);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  &__p {
+    font-size: 2rem;
+  }
+  &__h1 {
+    font-size: 6rem;
+    background: #2193b0;
+    background: -webkit-linear-gradient(to left, #6dd5ed, #2193b0);
+    background: linear-gradient(to left, #6dd5ed, #2193b0);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    letter-spacing: 0.1rem;
+    text-shadow: 0px 0px 0.5rem #6dd5ed;
+  }
+  &__h2 {
+    font-size: 4rem;
+    background: #2193b0;
+    background: -webkit-linear-gradient(to left, #6dd5ed, #2193b0);
+    background: linear-gradient(to left, #6dd5ed, #2193b0);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    letter-spacing: 0.1rem;
+    text-shadow: 0px 0px 0.5rem #6dd5ed;
+  }
+}
