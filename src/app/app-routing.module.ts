@@ -8,7 +8,7 @@ import { MyPortfolioComponent } from './my-portfolio/my-portfolio.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 
 const routes: Routes = [
-  { path: '', component: MainPageComponent },
+  { path: '', redirectTo: "home", pathMatch: "full" },
   { path: 'home', component: MainPageComponent },
   { path: 'about-me', component: AboutMeComponent },
   { path: 'contact', component: ContactComponent },
