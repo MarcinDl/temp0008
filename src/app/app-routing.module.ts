@@ -8,13 +8,13 @@ import { MyPortfolioComponent } from './my-portfolio/my-portfolio.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: "home", pathMatch: "full" },
-  { path: 'home', component: MainPageComponent },
-  { path: 'about-me', component: AboutMeComponent },
-  { path: 'contact', component: ContactComponent },
-  { path: 'my-skills', component: MySkillsComponent },
-  { path: 'my-portfolio', component: MyPortfolioComponent },
-  { path: 'nav-bar', component: NavBarComponent },
+  { path: 'temp0008/', redirectTo: "home", pathMatch: "full" },
+  { path: 'temp0008/home', component: MainPageComponent },
+  { path: 'temp0008/about-me', component: AboutMeComponent },
+  { path: 'temp0008/contact', component: ContactComponent },
+  { path: 'temp0008/my-skills', component: MySkillsComponent },
+  { path: 'temp0008/my-portfolio', component: MyPortfolioComponent },
+  { path: 'temp0008/nav-bar', component: NavBarComponent },
 ];
 
 @NgModule({
